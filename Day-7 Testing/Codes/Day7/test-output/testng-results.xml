@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-02T12:42:58 IST" name="Default suite" finished-at="2023-06-02T12:43:05 IST" duration-ms="7176">
+  <suite started-at="2023-06-05T10:33:53 IST" name="Default suite" finished-at="2023-06-05T10:34:19 IST" duration-ms="26270">
     <groups>
+      <group name="SmokeTest">
+        <method signature="Task5.TeastCase_01()[pri:0, instance:com.selenium.Day7.Task5@48f278eb]" name="TeastCase_01" class="com.selenium.Day7.Task5"/>
+      </group> <!-- SmokeTest -->
+      <group name="Regression TestCase">
+        <method signature="Task5.TestCase_02()[pri:0, instance:com.selenium.Day7.Task5@48f278eb]" name="TestCase_02" class="com.selenium.Day7.Task5"/>
+        <method signature="Task5.TestCase_03()[pri:0, instance:com.selenium.Day7.Task5@48f278eb]" name="TestCase_03" class="com.selenium.Day7.Task5"/>
+      </group> <!-- Regression TestCase -->
     </groups>
-    <test started-at="2023-06-02T12:42:58 IST" name="Default test" finished-at="2023-06-02T12:43:05 IST" duration-ms="7176">
-      <class name="com.selenium.Day7.NewTest">
-        <test-method signature="afterTest()[pri:0, instance:com.selenium.Day7.NewTest@47d7bfb3]" started-at="2023-06-02T12:42:58 IST" name="afterTest" finished-at="2023-06-02T12:42:58 IST" duration-ms="134" status="PASS">
+    <test started-at="2023-06-05T10:33:53 IST" name="Default test" finished-at="2023-06-05T10:34:19 IST" duration-ms="26270">
+      <class name="com.selenium.Day7.Task5">
+        <test-method signature="TeastCase_01()[pri:0, instance:com.selenium.Day7.Task5@48f278eb]" started-at="2023-06-05T10:33:53 IST" name="TeastCase_01" finished-at="2023-06-05T10:34:03 IST" duration-ms="10125" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method signature="beforeTest()[pri:0, instance:com.selenium.Day7.NewTest@47d7bfb3]" started-at="2023-06-02T12:42:58 IST" name="beforeTest" finished-at="2023-06-02T12:43:01 IST" duration-ms="2857" status="PASS">
+        </test-method> <!-- TeastCase_01 -->
+        <test-method signature="TestCase_02()[pri:0, instance:com.selenium.Day7.Task5@48f278eb]" started-at="2023-06-05T10:34:03 IST" name="TestCase_02" finished-at="2023-06-05T10:34:10 IST" duration-ms="6412" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="facebook()[pri:0, instance:com.selenium.Day7.NewTest@47d7bfb3]" started-at="2023-06-02T12:43:01 IST" name="facebook" finished-at="2023-06-02T12:43:05 IST" depends-on-methods="com.selenium.Day7.NewTest.beforeTest" duration-ms="4160" status="PASS">
+        </test-method> <!-- TestCase_02 -->
+        <test-method signature="TestCase_03()[pri:0, instance:com.selenium.Day7.Task5@48f278eb]" started-at="2023-06-05T10:34:10 IST" name="TestCase_03" finished-at="2023-06-05T10:34:19 IST" duration-ms="9701" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facebook -->
-      </class> <!-- com.selenium.Day7.NewTest -->
+        </test-method> <!-- TestCase_03 -->
+        <test-method signature="f()[pri:0, instance:com.selenium.Day7.Task5@48f278eb]" started-at="2023-06-05T10:34:19 IST" name="f" finished-at="2023-06-05T10:34:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.selenium.Day7.Task5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
