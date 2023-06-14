@@ -24,8 +24,8 @@ public class Task1 {
 		WebElement dest_ele=driver.findElement(By.id("droppable"));
 		
 		a.clickAndHold(source_ele).release(dest_ele).build().perform();
-		Thread.sleep(5000);
-		driver.quit();
+//		Thread.sleep(5000);
+//		driver.quit();
 
 	}
 

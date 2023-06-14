@@ -21,19 +21,39 @@ public class Task3
 		
 		WebElement txt_box= driver.findElement(By.name("cusid"));
 		
+		Thread.sleep(5000);
+		
 		WebElement submit_btn=driver.findElement(By.name("submit"));
 		
+		Thread.sleep(5000);
+		
 		txt_box.sendKeys("401");
+		
+		Thread.sleep(5000);
+		
+		
 		submit_btn.click();
+		
+		Thread.sleep(5000);
+		
+		
+		Thread.sleep(5000);
+		
+		
 		Alert alert1=driver.switchTo().alert();
 		alert1.dismiss();
 		
 		txt_box.clear();
 		txt_box.sendKeys("402");
 		submit_btn.click();
+		Thread.sleep(5000);
+		
+		
 		Alert alert2=driver.switchTo().alert();
 	    alert2.accept();
 	    Thread.sleep(3000);
+	    
+	    
 	    Alert alert3=driver.switchTo().alert();
 		String txt=alert3.getText();
 		alert3.accept();

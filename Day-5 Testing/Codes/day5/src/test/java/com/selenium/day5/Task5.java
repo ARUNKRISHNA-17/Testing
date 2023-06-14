@@ -15,9 +15,12 @@ public class Task5 {
 		WebDriver dr=new ChromeDriver();
 
 		dr.get("https://demo.smart-hospital.in/site/login");
+		
 		dr.manage().window().maximize();
+		
 		dr.findElement(By.xpath("/html/body/div[1]/div/div/div/div[1]/div/div[2]/div[1]/a[1]")).click();
 		dr.findElement(By.xpath("/html/body/div[1]/div/div/div/div[1]/div/div[2]/form/button")).click();
+		
 		dr.findElement(By.xpath("//*[@id=\'sibe-box\']/ul[2]/li[4]/a/span")).click();
 		String tag=dr.findElement(By.xpath("//*[@id=\'sibe-box\']/ul[2]/li[4]/a/span")).getTagName();
 		String text=dr.findElement(By.xpath("//*[@id=\'sibe-box\']/ul[2]/li[4]/a/span")).getText();
